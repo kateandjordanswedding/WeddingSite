@@ -1,0 +1,11 @@
+@import '../../variables.scss';
+
+.date{
+    background-color: #eee;
+    border: 1px solid $gold-color;
+    margin-left: 2em;
+    margin-right: 2em;
+    font-family: 'EB Garamond', serif;
+    font-size: 3em;
+    color: #000;
+}

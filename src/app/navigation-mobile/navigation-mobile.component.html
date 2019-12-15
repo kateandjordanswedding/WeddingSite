@@ -1,0 +1,45 @@
+<div class="row-fluid">
+    <div class="col-sm">
+        <div class="mobile-nav-button" (click)="toggleMobileMenu()">
+            Menu
+        </div>
+    </div>
+</div>
+<div class="mobile-nav-divider"></div>
+<div class="mobile-nav-content" [@openClose]="showMobileMenu">
+    <div class="row">
+        <a class="col-sm" routerLink="/home" (click)="toggleMobileMenu()" routerLinkActive="active">
+            Home
+        </a>
+    </div>
+    <div class="row">
+        <a class="col-sm" routerLink="/night-before" (click)="toggleMobileMenu()" routerLinkActive="active">
+            The Night Before
+        </a>
+    </div>
+    <div class="row">
+        <a class="col-sm" routerLink="/accomodation" (click)="toggleMobileMenu()" routerLinkActive="active">
+            Accomodation
+        </a>
+    </div>
+    <div class="row">
+        <a class="col-sm" routerLink="/on-the-day" (click)="toggleMobileMenu()" routerLinkActive="active">
+            On The Day
+        </a>
+    </div>
+    <div class="row">
+        <a class="col-sm" routerLink="/nearby-interests" (click)="toggleMobileMenu()" routerLinkActive="active">
+            Nearby Interests
+        </a>
+    </div>
+    <div class="row">
+        <a class="col-sm" routerLink="/gift-list" (click)="toggleMobileMenu()" routerLinkActive="active">
+            Gift List
+        </a>
+    </div>
+    <div class="row">
+        <a class="col-sm" routerLink="/contact-us" (click)="toggleMobileMenu()" routerLinkActive="active">
+            Contact us
+        </a>
+    </div>
+</div>
