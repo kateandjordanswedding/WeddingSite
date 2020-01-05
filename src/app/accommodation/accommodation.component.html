@@ -1,0 +1,8 @@
+<div class="header">Accommodation</div>
+<div class="divider"></div>
+<p>Denton hall only has a limited amount of rooms, so unfortunately we can't accommodate everyone.</p>
+<p>However there are some lovely accommodations in the local area. We have listed some of our reccomendations below.</p>
+<div class="divider"></div>
+<p *ngFor="let venue of venues" class="p2">
+    <a href="{{venue.link}}" target="_blank">{{venue.name}}</a>
+</p>
