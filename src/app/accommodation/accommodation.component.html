@@ -1,8 +1,13 @@
 <div class="header">Accommodation</div>
 <div class="divider"></div>
-<p>Denton hall only has a limited amount of rooms, so unfortunately we can't accommodate everyone.</p>
-<p>However there are some lovely accommodations in the local area. We have listed some of our reccomendations below.</p>
+<p>Denton Hall only has a limited amount of rooms, so unfortunately we can't accommodate everyone.</p>
+<p>You will be contacted directly if you have been allocated a room.</p>
 <div class="divider"></div>
-<p *ngFor="let venue of venues" class="p2">
-    <a href="{{venue.link}}" target="_blank">{{venue.name}}</a>
-</p>
+<div class="row">
+    <div class="col-sm-12 col-lg-6 button button-left">
+        <button routerLink="/denton-hall-accommodation">Denton Hall Accommodation</button>
+    </div>
+    <div class="col-sm-12 col-lg-6 button button-right">
+        <button routerLink="/alternative-accommodation">Alternative Accommodation</button>
+    </div>
+</div>

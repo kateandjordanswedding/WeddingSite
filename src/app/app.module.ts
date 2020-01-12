@@ -11,8 +11,10 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { GettingHereComponent } from './getting-here/getting-here.component';
 import { AccommodationComponent } from './accommodation/accommodation.component';
 import { NightBeforeComponent } from './night-before/night-before.component';
-import { OnTheDayComponent } from './on-the-day/on-the-day.component';
+import { TheBigDayComponent } from './the-big-day/the-big-day.component';
 import { GiftListComponent } from './gift-list/gift-list.component';
+import { DentonHallAccommodationComponent } from './denton-hall-accommodation/denton-hall-accommodation.component';
+import { AlternativeAccommodationComponent } from './alternative-accommodation/alternative-accommodation.component';
 
 @NgModule({
   declarations: [
@@ -24,8 +26,10 @@ import { GiftListComponent } from './gift-list/gift-list.component';
     GettingHereComponent,
     AccommodationComponent,
     NightBeforeComponent,
-    OnTheDayComponent,
-    GiftListComponent
+    TheBigDayComponent,
+    GiftListComponent,
+    DentonHallAccommodationComponent,
+    AlternativeAccommodationComponent
   ],
   imports: [
     BrowserModule,

@@ -7,3 +7,7 @@
     West Yorkshire<br />
     LS29 0HH
 </div>
+<div class="divider"></div>
+<div *ngIf="$timeToWedding | async as timeToWedding">
+    {{timeToWedding.days}} Days, {{timeToWedding.hours}} Hours, {{timeToWedding.minutes}} Minutes, {{timeToWedding.seconds}} Seconds
+</div>

@@ -1,0 +1,10 @@
+<div class="header">Alternative Accommodation</div>
+<div class="divider"></div>
+<p>There is some lovely accommodations in the local area. We have listed some of our reccomendations below:</p>
+<p *ngFor="let venue of venues" class="p2">
+    <a href="{{venue.link}}" target="_blank">{{venue.name}}</a>
+</p>
+<div class="divider"></div>
+<div class="button button-center">
+    <button routerLink="/denton-hall-accommodation">Denton Hall Accommodation</button>
+</div>
