@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { interval } from 'rxjs';
+import { timer } from 'rxjs';
 import { map } from 'rxjs/operators';
 
 @Component({
@@ -9,7 +9,7 @@ import { map } from 'rxjs/operators';
 })
 export class HomeComponent implements OnInit {
 
-  $timeToWedding = interval(0, 1000).pipe(map(x=> this.getTimeRemaining()));
+  $timeToWedding = timer(0, 1000).pipe(map(x=> this.getTimeRemaining()));
 
   constructor() { }
 
