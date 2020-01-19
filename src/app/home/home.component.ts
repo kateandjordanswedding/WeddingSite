@@ -14,7 +14,6 @@ export class HomeComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    console.log(this.getTimeRemaining())
   }
 
   getTimeRemaining() {
