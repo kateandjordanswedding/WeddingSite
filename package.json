@@ -4,6 +4,7 @@
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
+    "preinstall": "npx npm-force-resolutions",
     "build": "ng build",
     "build-ghp": "ng build --prod --output-path docs && node add404.js && node addCNAME.js",
     "test": "ng test",
@@ -46,5 +47,8 @@
     "ts-node": "~7.0.0",
     "tslint": "~5.15.0",
     "typescript": "~3.5.3"
+  },
+  "resolutions": {
+    "serialize-javascript": "^2.1.1"
   }
 }
