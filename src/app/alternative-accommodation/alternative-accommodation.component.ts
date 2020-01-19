@@ -8,7 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class AlternativeAccommodationComponent implements OnInit {
 
   venues : Venue[] = [
-    new Venue('The Cow & Calf, Ilkey','https://www.innkeeperslodge.com/hotel/the-cow-calf-ilkley-west-yorkshire'),
+    new Venue('The Cow & Calf - Inn Keeper\'s Lodge, Ilkey','https://www.innkeeperslodge.com/hotel/the-cow-calf-ilkley-west-yorkshire'),
     new Venue('The Black Hat, Ilkley','https://www.blackhatilkley.co.uk/'),
     new Venue('The Gin Lounge, Ilkley','https://www.theginloungeilkley.com/'),
     new Venue('The Best Western Craiglands Hotel, Ilkley','https://www.bestwestern.co.uk/hotels/best-western-plus-craiglands-hotel-84222'),
