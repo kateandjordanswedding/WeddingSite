@@ -13,7 +13,6 @@ export class GoogleGtagService {
 
   sendPageView(path: string) {
     if (environment.production) {
-      console.log('Sending gtag: ' + path);
       gtag('config', 'UA-156513891-1', { 'page_path': path });
     }
   }
