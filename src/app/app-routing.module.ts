@@ -9,6 +9,7 @@ import { TheBigDayComponent } from './the-big-day/the-big-day.component';
 import { GiftListComponent } from './gift-list/gift-list.component';
 import { DentonHallAccommodationComponent } from './denton-hall-accommodation/denton-hall-accommodation.component';
 import { AlternativeAccommodationComponent } from './alternative-accommodation/alternative-accommodation.component';
+import { RearrangementsComponent } from './rearrangements/rearrangements.component';
 
 
 const routes: Routes = [
@@ -18,6 +19,7 @@ const routes: Routes = [
   { path: 'getting-here', component: GettingHereComponent },
   { path: 'accommodation', component: AccommodationComponent },
   { path: 'night-before', component: NightBeforeComponent },
+  { path: 'rearrangements', component: RearrangementsComponent },
   { path: 'the-big-day', component: TheBigDayComponent },
   { path: 'gift-list', component: GiftListComponent },
   { path: 'denton-hall-accommodation', component: DentonHallAccommodationComponent },

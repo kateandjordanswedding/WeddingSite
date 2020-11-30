@@ -15,6 +15,7 @@ import { TheBigDayComponent } from './the-big-day/the-big-day.component';
 import { GiftListComponent } from './gift-list/gift-list.component';
 import { DentonHallAccommodationComponent } from './denton-hall-accommodation/denton-hall-accommodation.component';
 import { AlternativeAccommodationComponent } from './alternative-accommodation/alternative-accommodation.component';
+import { RearrangementsComponent } from './rearrangements/rearrangements.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ import { AlternativeAccommodationComponent } from './alternative-accommodation/a
     TheBigDayComponent,
     GiftListComponent,
     DentonHallAccommodationComponent,
-    AlternativeAccommodationComponent
+    AlternativeAccommodationComponent,
+    RearrangementsComponent
   ],
   imports: [
     BrowserModule,

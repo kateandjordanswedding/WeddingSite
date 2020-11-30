@@ -1,24 +1,22 @@
 <div class="header">Kate & Jordan's Wedding</div>
 <div class="divider"></div>
-<div class="header">23 / 05 / 2020</div>
+<div class="header">Wednesday 16th December 2020</div>
 <div class="header2">
-    Denton Hall<br />
-    Ilkley<br />
-    West Yorkshire<br />
-    LS29 0HH
+    Borrowash Methodist Church<br />
+    11am
 </div>
 <div class="divider"></div>
 <div *ngIf="$timeToWedding | async as timeToWedding" class="row fluid countdown">
     <div class="col bordered">
         {{timeToWedding.days}}<br/> Days
     </div>
-    <div class="col bordered" >
+    <div class="col bordered">
         {{timeToWedding.hours}}<br/> Hours
     </div>
     <div class="col bordered">
         {{timeToWedding.minutes}}<br/> Minutes
     </div>
-    <div class="col bordered" >
+    <div class="col bordered">
         {{timeToWedding.seconds}}<br/> Seconds
     </div>
 </div>
