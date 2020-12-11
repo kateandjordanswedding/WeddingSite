@@ -10,6 +10,7 @@ import { GiftListComponent } from './gift-list/gift-list.component';
 import { DentonHallAccommodationComponent } from './denton-hall-accommodation/denton-hall-accommodation.component';
 import { AlternativeAccommodationComponent } from './alternative-accommodation/alternative-accommodation.component';
 import { RearrangementsComponent } from './rearrangements/rearrangements.component';
+import { LiveStreamComponent } from './live-stream/live-stream.component';
 
 
 const routes: Routes = [
@@ -24,6 +25,7 @@ const routes: Routes = [
   { path: 'gift-list', component: GiftListComponent },
   { path: 'denton-hall-accommodation', component: DentonHallAccommodationComponent },
   { path: 'alternative-accommodation', component: AlternativeAccommodationComponent },
+  { path: 'live-stream', component: LiveStreamComponent },
   { path: '**', component: HomeComponent }
 ];
 

@@ -16,6 +16,7 @@ import { GiftListComponent } from './gift-list/gift-list.component';
 import { DentonHallAccommodationComponent } from './denton-hall-accommodation/denton-hall-accommodation.component';
 import { AlternativeAccommodationComponent } from './alternative-accommodation/alternative-accommodation.component';
 import { RearrangementsComponent } from './rearrangements/rearrangements.component';
+import { LiveStreamComponent } from './live-stream/live-stream.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +32,8 @@ import { RearrangementsComponent } from './rearrangements/rearrangements.compone
     GiftListComponent,
     DentonHallAccommodationComponent,
     AlternativeAccommodationComponent,
-    RearrangementsComponent
+    RearrangementsComponent,
+    LiveStreamComponent
   ],
   imports: [
     BrowserModule,
