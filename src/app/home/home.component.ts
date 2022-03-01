@@ -17,7 +17,7 @@ export class HomeComponent implements OnInit {
   }
 
   getTimeRemaining() {
-    var t = new Date("2020-12-16T11:00:00.000Z").getTime() - new Date().getTime();
+    var t = new Date("2022-06-18T14:00:00.000Z").getTime() - new Date().getTime();
     var seconds = Math.floor((t / 1000) % 60);
     var minutes = Math.floor((t / 1000 / 60) % 60);
     var hours = Math.floor((t / (1000 * 60 * 60)) % 24);
